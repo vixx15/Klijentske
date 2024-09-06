@@ -1,0 +1,69 @@
+*{
+    color: #333;
+    font-family: "Poppins", sans-serif;
+}
+
+.accentText{
+    font-weight: 700;
+    line-height: 50px;
+    font-size: 72px;
+}
+
+.textSpecial {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 65px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.descriptionText {
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.commonBtn {
+    border: none;
+    outline: none;
+    color: #333333; 
+    background-color: #FADADD; 
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 20px; 
+}
+
+.bigImages {
+    padding-left: 20px;
+    max-height: 600px;
+    max-width: 600px;
+    min-width: 250px;
+    min-height: 250px;
+}
+
+.containerMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap-reverse; 
+    padding: 30px;
+}
+
+.containerText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    max-width: 800px; 
+}
+
+.divBtnHome{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:25px;
+}
+
