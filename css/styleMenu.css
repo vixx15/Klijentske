@@ -1,0 +1,72 @@
+.menu{
+    background-color:beige;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.divPageTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.titleText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 3opx;
+}
+
+.foodsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.line {
+    margin-top: 15px;
+    width: 30%;
+    border: 1px solid #333;
+    background-color: #333;
+}
+
+.product {
+    margin: 30px;
+    background-color: #FFFACD;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 10px;
+    border-radius: 3px;
+}
+
+.product img {
+    height: 300px;
+    width: 300px;
+}
+
+.orderBtn {
+    cursor: pointer;
+    border-radius: 3px;
+    height: 30px;
+    width: 100px;
+    position: relative;
+    top: -10px;
+    border: 0px;
+    background-color: #FADADD;
+    color: #333333;
+}
