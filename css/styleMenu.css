@@ -70,3 +70,90 @@
     background-color: #FADADD;
     color: #333333;
 }
+
+#userInfo>.flexColumn>label {
+    margin: 10px;
+}
+
+#userInfo>.flexColumn>input {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.order input[type='radio'] {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+#myOrders {
+    resize: none;
+    margin-top: 10px;
+    padding: 12px 20px;
+    background-color:#FFFACD;
+    color: black;
+    font-size: 16px;
+    border-radius: 4px;
+    border-color:#FFFACD;
+}
+
+.menu_form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+#userInfo>.flexColumn>label {
+    margin: 10px;
+}
+
+
+#userInfo>.flexColumn>input {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.order {
+    margin: 10px;
+}
+
+.order p {
+    margin-bottom: 10px;
+}
+
+
+.order input[type='radio'] {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+#forma {
+    box-shadow: 0px 0px 35px rgba(88, 33, 33, 0.2);
+    border: 2px solid #C1E1C1;
+    background-color: #B0E0E6; 
+    padding: 20px;
+    border-radius: 10px
+}
+
+#userInfo input[type='text'] {
+    border: none;
+    background: #FFFACD;
+    outline: none;
+    font-size: 20px;
+    height: 30px;
+    padding: 5px; 
+    border-radius: 5px; 
+}
+
+.buttons_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
