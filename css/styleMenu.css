@@ -157,3 +157,33 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+
+@media(max-width:500px) {
+
+    #userInfo>.flexColumn>label {
+        margin: 20px;
+    }
+
+    #userInfo>.flexColumn>input {
+        margin-bottom: 40px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    .menu_form {
+        font-size: 8px;
+    }
+
+    #userInfo input[type='text'] {
+        font-size: 8px;
+        height: 10px;
+        width: 20em;
+    }
+
+    #myOrders {
+        font-size: 8px;
+        width: 30em;
+        height: 30em;
+    }
+}
