@@ -2,7 +2,7 @@
 
 Ovo je projekat koji se koristi u nastavi predmeta **Klijentske Tehnologije**. 
 
-> KTEH
+> Klijentske Tehnologije
 
 ## Opis projekta
 Ovaj projekat predstavlja jednostavan sajt poslastičarnice kroz čiju izradu studenti mogu da se upoznaju sa konceptima kao što su:
