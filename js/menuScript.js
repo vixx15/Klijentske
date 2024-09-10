@@ -34,6 +34,28 @@ forma.addEventListener("submit", function (e) {
     e.preventDefault();
     let vrednost = forma["kreditna"].checked
     console.log("Korisnik je izabrao kreditnu karticu " + vrednost)
- })
- 
+})
 
+
+let increaseBtns = document.querySelectorAll(".increaseBtn")
+increaseBtns = Array.from(increaseBtns)
+increaseBtns.forEach(function (btn) {
+    btn.addEventListener("click", function (e) {
+        let quantityItem = btn.parentNode.querySelector(".quantity")
+        let quantityText = quantityItem.textContent
+        let quantity = Number(quantityText)
+        quantity = quantity + 1
+        quantityItem.textContent = quantity + ""
+    })
+})
+
+let decreaseBtns = document.querySelectorAll(".decreaseBtn")
+Array.from(decreaseBtns).forEach(function (btn) {
+    btn.addEventListener("click", function (e) {
+        let quantity = Number(btn.parentNode.querySelector(".quantity").textContent)
+        if (quantity > 0) {
+            quantity -= 1
+            btn.parentNode.querySelector(".quantity").textContent = quantity + ""
+        }
+    })
+})
