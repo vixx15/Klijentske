@@ -124,3 +124,14 @@ do {
 if (ime) {
     console.log("Korisnik se zove "+ ime)
 }*/
+
+const arr = [3, 5, 7];
+arr.greeting = 'hello';
+
+for (let i in arr) {
+   console.log(i);
+}
+for (let i of arr) {
+    console.log(i);
+ }
+ 
