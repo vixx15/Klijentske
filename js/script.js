@@ -101,15 +101,15 @@ for (let i = 0; i < 5; i++) {
 console.log("--------WHILE---------")
 let m = 0;
 while (m < 5) {
-  console.log(m);
-  m++;
+    console.log(m);
+    m++;
 }
 
 console.log("--------DO WHILE---------")
 let n = 0;
 do {
-  console.log(n);
-  n++;
+    console.log(n);
+    n++;
 } while (n < 5);
 
 //alert("Dijalog!")
@@ -129,9 +129,30 @@ const arr = [3, 5, 7];
 arr.greeting = 'hello';
 
 for (let i in arr) {
-   console.log(i);
+    console.log(i);
 }
 for (let i of arr) {
     console.log(i);
- }
- 
+}
+
+function multiplication(x, y) {
+    return x * y;
+}
+function addition(x, y) {
+    return x + y;
+}
+function printOut(x, y){
+    return `X:${x} Y:${y}`
+}
+function hello(x, y){
+    return "hello"
+}
+function operate(x, y, operation) {
+    return operation(x, y);
+}
+
+console.log("Multiply " + operate(3, 4, multiply)); // Output: 12
+console.log("Adddition " + operate(3, 4, addition));
+console.log("Print " + operate(3, 4, printOut));
+console.log("Hi " + operate(3, 4, hello));
+
